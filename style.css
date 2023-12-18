@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --coloprincipal: #0000;
+    --secundariocolor: #ffffff;
+    --terciariocolor: #e5eeff;
+    --cuartocolor: #ffd100;
+    --titulos:Fredoka;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+.titulo{
+    background-color: var(--cuartocolor);
+    width: 100%;
+    margin-top: 5px;
+}
+
+.titulo h1{
+    text-align: center;
+    width: 100%;
+    border: 3px solid black;
+}
+
+.social-icons a {
+    color: var(--cuartocolor);
+  }
+  
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    width: 40%;
+    box-sizing: border-box;
+
+
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000000 ;
+    font-family: Bebas Neue;
+    font-size: 48;
+  }
+  
+
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 10px;
+    background-color:var(--cuartocolor);
+    border-radius: 5%;
+    color: white;
+  }
+
+  .contact-form label{
+    font-family: Bebas Neue;
+    font-size: 32;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: var(--cuartocolor); 
+    color: white;
+    padding: 10px;
+    border:  2px solid black;
+    border-radius: 10%;
+    font-family: Bebas Neue;
+    font-size: 32;
+  }
+  
+  .contact-info {
+    width: 40%;
+    height: 40%;
+    box-sizing: border-box;
+    border: 2PX solid black;
+    background-color: var(--cuartocolor);
+
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color:rgb(255, 255, 255) ;
+    font-family: Bebas Neue;
+    font-size: 2rem;
+  }
+  
+.contact-info p {
+    margin-left: 1rem;
+    color: white;
+}
+
